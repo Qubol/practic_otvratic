@@ -1,9 +1,9 @@
-module com.example.kursach_beta {
+module com.example.pract_zv {
     requires javafx.controls;
     requires javafx.fxml;
     requires java.sql;
 
 
-    opens com.example.kursach_beta to javafx.fxml;
-    exports com.example.kursach_beta;
+    opens com.example.pract_zv to javafx.fxml;
+    exports com.example.pract_zv;
 }
