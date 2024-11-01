@@ -8,8 +8,8 @@ services:
       --init-file /data/application/init.sql
     environment:
       MYSQL_ROOT_USER: javafxTest
-      MYSQL_ROOT_PASSWORD: 1111
-      MYSQL_DATABASE: mybd
+      MYSQL_ROOT_PASSWORD: ""
+      MYSQL_DATABASE: worker
       MYSQL_USER: javafxTest
       MYSQL_PASSWORD: 1111
     volumes:
