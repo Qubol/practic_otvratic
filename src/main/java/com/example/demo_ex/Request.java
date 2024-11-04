@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo_ex;
 import javafx.beans.property.*;
 
 import javafx.beans.property.SimpleIntegerProperty;
@@ -16,7 +16,7 @@ public class Request {
     private SimpleIntegerProperty masterID;
     private SimpleIntegerProperty clientID;
 
-    Request(int requestID, String startDate, String homeTechType, String homeTechModel, String problemDescryption, String requestStatus, String completionDate, String repairParts, int masterID, int clientID){
+    public Request(int requestID, String startDate, String homeTechType, String homeTechModel, String problemDescryption, String requestStatus, String completionDate, String repairParts, int masterID, int clientID){
         this.requestID = new SimpleIntegerProperty(requestID);
         this.startDate = new SimpleStringProperty(startDate);
         this.homeTechType = new SimpleStringProperty(homeTechType);

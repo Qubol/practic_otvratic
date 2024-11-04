@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo_ex;
 
 import java.sql.*;
 import java.util.ArrayList;
